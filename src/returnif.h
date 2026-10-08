@@ -21,7 +21,7 @@
 
 #define RETURNIF_EXPAND(x) x
 #define RETURNIF_GET_MACRO(_1, _2, name, ...) name
-#define returnif(...)    RETURNIF_EXPAND( RETURNIF_GET_MACRO(__VA_ARGS__, RETURNIF_2ARG, RETURNIF_1ARG)(__VA_ARGS__) )
+#define returnif(...) RETURNIF_EXPAND( RETURNIF_GET_MACRO(__VA_ARGS__, RETURNIF_2ARG, RETURNIF_1ARG)(__VA_ARGS__) )
 
 // ********************************************************
 
