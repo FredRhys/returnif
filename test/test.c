@@ -1,6 +1,4 @@
-#include <assert.h>
-#include <stdio.h>
-#include "../src/returnif.h"
+#include "test.h"
 
 void run_returnif1(int* x) {
     returnif(*x > 4);
