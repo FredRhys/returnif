@@ -13,6 +13,7 @@ build/test.o: test/test.c test/test.h src/returnif.h
 build:
 	mkdir build
 
+.PHONY: test
 test: build/test
 	cd ./build && ./test
 
