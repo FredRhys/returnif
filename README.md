@@ -13,7 +13,7 @@ if (condition) {
 ```
 into
 ```
-returnif(condition)
+returnif(condition);
 ```
 
 This is done with a set of macros; `continueif` and `breakif` function identically to the above. The macro `returnif` is overloaded so it can take either one or two arguments. The two-argument case is used for cases like:
